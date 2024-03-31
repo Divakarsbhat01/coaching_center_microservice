@@ -24,15 +24,18 @@ MysqlDB
 	coacen_fastapi_micro_teacher_course
 
 Service ports:
-user_service :8000
-security Service:8001
-student_service:8002
-mentor_service:8003
-teacher_service:8006
-course_service:8004
-course_material_service:8005
-student_course_service:8007
-teacher_course_service:8008
+user_service 8000
+security service 8001
+student_service 8002
+parent_service 8003
+course_service 8004
+course_material_service 8005
+Teacher_service 8006
+student_course_service 8007
+teacher_course_service 8008
+mongo service 27017
+mysql db 3306
+
 
 Commands to run:
     python has to be installed in computer
